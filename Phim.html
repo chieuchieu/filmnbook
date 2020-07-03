@@ -1,56 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Review phim </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Monofett&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Film n Book</title>
+    <link rel="icon" href="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-14.jpg" type="image/icon type">
 </head>
-<body>
-    <h1>Review List</h1>
-    <div class="film">
-        <div class="content">
-            <h2>The end of the f**king world</h2>
-            <hr>
-            <p>Netflix</p>
-            <p>
-                Đạo diễn: Jonathan Entwistle; Lucy Tcherniak; Lucy Forbes; Destiny Ekaragha <br>
-                Diễn viên: Jessica Barden, Alex Lawther
-            </p>
-            <a href="end1.html" target="blank">
-                <button>Đọc ngay</button>
-            </a>
-        </div>
-    </div>
 
-    <div class="film">
-        <div class="content">
-            <h2>The end of the f**king world 2</h2>
-            <hr>
-            <p>Netflix</p>
-            <p>
-                Đạo diễn: Jonathan Entwistle; Lucy Tcherniak; Lucy Forbes; Destiny Ekaragha <br>
-                Diễn viên: Jessica Barden, Alex Lawther
-            </p>
-            <a href="end2.html" target="blank">
-                <button>Đọc ngay</button>
-            </a>
-        </div>
-    </div>
+    <body>
+        <nav id="navBar" class="navbar navbar-light navbar-expand-lg py-0 fixed-top" >
+            <a class="navbar-brand" href="#">Film n Book</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Phim.html" class="nav-link">PHIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Sách.html" class="nav-link">SÁCH</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <div class="film">
-        <div class="content">
-            <h2>Sex education</h2>
-            <hr>
-            <p>Netflix</p>
-            <p>
-                Đạo diễn: Ben Taylor; Kate Herron; Sophie Goodhart; Alice Seabright <br>
-                Diễn viên: Asa Butterfield; Emma Mackey; Gillian Anderson; 	Ncuti Gatwa
-            </p>
-            <a href="sexed.html" target="blank">
-                <button>Đọc ngay</button>
-            </a>
-        </div>
-    </div>
+        <section id="header" class="jumbotron text-center">
+            <h1 class="display-4">Phim</h1>
+            <p class="lead">Bạn muốn tìm một bộ phim để giải trí nhưng lại không muốn phí thời gian vào những bộ không hợp gu?<br> Đọc những review siêu có tâm sau đây để tiết kiệm thời gian chọn lọc nhé :></p>
+        </section>
 
-</body>
-</html>
+        <section id="body">
+            <div id="reved" class="rev">
+                <h2>Phim có review</h2>
+                <hr>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/sex_education.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sex Education (TV Series)</h4>
+                                    <p class="card-text">
+                                        <b>Đạo diễn:</b>: Ben Taylor; Kate Herron; Sophie Goodhart; Alice Seabright <br>
+                <b>Diễn viên</b>: Asa Butterfield; Emma Mackey; Gillian Anderson; 	Ncuti Gatwa
+                                    </p>
+                                    <a href="./filmreviews/se.html" class="btn btn-info">Review</a>
+                                    <a href="http://www.phimmoiz.com/phim/giao-duc-gioi-tinh-phan-1-i3-8175/" class="btn btn-warning">Xem phim</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/the end.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">The end of the fucking world (Ss1)</h4>
+                                    <p class="card-text">
+                                        <b>Đạo diễn:</b> Jonathan Entwistle; Lucy Tcherniak; Lucy Forbes; Destiny Ekaragha <br>
+                                        <b>Diễn viên:</b> Jessica Barden, Alex Lawther
+                                    </p>
+                                    <a href="./filmreviews/TEOTFW.html" class="btn btn-info">Review</a>
+                                    <a href="http://www.phimmoiz.com/phim/cap-doi-do-nguoi-phan-1-6482/" class="btn btn-warning">Xem phim</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/the end2.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">The end of the fucking world (Ss2)</h4>
+                                    <p class="card-text">
+                                        <b>Đạo diễn:</b>: Jonathan Entwistle; Lucy Tcherniak; Lucy Forbes; Destiny Ekaragha <br>
+                                        <b>Diễn viên</b>: Jessica Barden, Alex Lawther
+                                    </p>
+                                    <a href="./filmreviews/TEOTFW2.html" class="btn btn-info">Review</a>
+                                    <a href="http://www.phimmoiz.com/phim/giao-duc-gioi-tinh-phan-1-i3-8175/" class="btn btn-warning">Xem phim</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="un-rev" class="rev">
+                <h2 style="margin-top: 100px">Phim chưa có review</h2>
+                <hr>
+                <div class="container">
+                    <div id="unrev-row" class="row">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script>
+        $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#navBar");
+                    $nav.toggleClass("scrolled navbar-dark", $(this).scrollTop() > $nav.height());
+                });
+            });
+        // setInterval(function(){
+        //   $("span").toggleClass('blink')
+        // }, 500);
+        </script>
+        <script src="film.js"></script>
+    </body>
+  </html>

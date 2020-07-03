@@ -249,3 +249,66 @@ footer {
             </ul>
         </div>
     </nav>
+
+
+
+
+
+<!-- phim.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Review phim </title>
+</head>
+<body>
+    <h1>Review List</h1>
+    <div class="film">
+        <div class="content">
+            <h2>The end of the f**king world</h2>
+            <hr>
+            <p>Netflix</p>
+            <p>
+                Đạo diễn: Jonathan Entwistle; Lucy Tcherniak; Lucy Forbes; Destiny Ekaragha <br>
+                Diễn viên: Jessica Barden, Alex Lawther
+            </p>
+            <a href="end1.html" target="blank">
+                <button>Đọc ngay</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="film">
+        <div class="content">
+            <h2>The end of the f**king world 2</h2>
+            <hr>
+            <p>Netflix</p>
+            <p>
+                Đạo diễn: Jonathan Entwistle; Lucy Tcherniak; Lucy Forbes; Destiny Ekaragha <br>
+                Diễn viên: Jessica Barden, Alex Lawther
+            </p>
+            <a href="end2.html" target="blank">
+                <button>Đọc ngay</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="film">
+        <div class="content">
+            <h2>Sex education</h2>
+            <hr>
+            <p>Netflix</p>
+            <p>
+                Đạo diễn: Ben Taylor; Kate Herron; Sophie Goodhart; Alice Seabright <br>
+                Diễn viên: Asa Butterfield; Emma Mackey; Gillian Anderson; 	Ncuti Gatwa
+            </p>
+            <a href="sexed.html" target="blank">
+                <button>Đọc ngay</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

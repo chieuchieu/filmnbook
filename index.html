@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Monofett&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="./style.css">
-    
-        <title>Film n Book</title>
-        <link rel="icon" href="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-14.jpg" type="image/icon type">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Monofett&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Film n Book</title>
+    <link rel="icon" href="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-14.jpg" type="image/icon type">
+</head>
 
 <body>
-    <nav id="navBar" class="navbar navbar-light navbar-expand-md py-0 fixed-top" >
+    <nav id="navBar" class="navbar navbar-light navbar-expand-lg py-0 fixed-top" >
         <a class="navbar-brand" href="#">Film n Book</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
                     <a href="#" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">PHIM</a>
+                    <a href="./Phim.html" class="nav-link">PHIM</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">SÁCH</a>
+                    <a href="./Sách.html" class="nav-link">SÁCH</a>
                 </li>
             </ul>
         </div>
@@ -43,12 +43,14 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/em sẽ đến.jpg" class="d-block w-100">
-            
+            <a href="./bookreviews/EM SẼ ĐẾN.html">
+              <img src="./img/em sẽ đến.jpeg" class="d-block w-100">
+            </a>
           </div>
           <div class="carousel-item">
-            <img src="./img/noi_em_quay_ve_co_toi_dung_doi.jpg" class="d-block w-100">
-            
+            <a href="./bookreviews/NEQVCOTDD.html">
+              <img src="./img/noi_em_quay_ve_co_toi_dung_doi.jpg" class="d-block w-100">
+            </a>
           </div>
           <div class="carousel-item">
             <img src="./img/tôi vẫn nghe tiếng em thầm gọi.jpg" class="d-block w-100">
@@ -66,7 +68,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <a href=""><h1>Sách hay</h1></a>
+      <a href=""><h1>Review Sách</h1></a>
 
       <hr>
 
@@ -101,15 +103,15 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <a href=""><h1>Phim hay</h1></a>
+      <a href=""><h1>Review Phim</h1></a>
     </section>
             
 
     <hr> 
     
     <section id="footer" style="text-align: center;">
-      <h2>CONTACT US</h2>
       <div>
+        <h2>CONTACT US</h2>
         <div>
           Phone: +84-999-999-999
         </div>
@@ -117,24 +119,32 @@
           Email: filmnbook@hihi.com
         </div>
       </div>
+
+      <form action="" >
+        <h3>Góp ý</h3>
+        <input class="form-control" type="text" required placeholder="Your name">
+        <input class="form-control" type="email" placeholder="Your email (optional)">
+        <textarea class="form-control" placeholder="Input your message.." required cols="50" rows="10"></textarea>
+        <input class="btn btn-info " type="submit">
+      </form>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script>
-      let colors = ['teal', 'teal', 'teal', 'teal', 'teal']
-     $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#navBar");
-                $nav.toggleClass("scrolled navbar-dark", $(this).scrollTop() > $nav.height());
-            });
-        });
-      setInterval(function(){
-        $("span").toggleClass('blink')
-      }, 500);
-    </script>
+    
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#navBar");
+              $nav.toggleClass("scrolled navbar-dark", $(this).scrollTop() > $nav.height());
+          });
+      });
+    // setInterval(function(){
+    //   $("span").toggleClass('blink')
+    // }, 500);
+  </script>
 </body>
 
 </html>
