@@ -1,6 +1,6 @@
 let unrev = document.getElementById('unrev-row')
 
-let randomWord = ["love", "star", "world", "you", "friend", "man", "detective"]
+let randomWord = ["love", "star", "world", "you", "your", "toi","anh", "muon","tinh", "friend", "man", "detective"]
 let randomNumber = Math.floor(Math.random() * (randomWord.length -1))
 
 let movieAPI = `http://www.omdbapi.com/?s=${randomWord[randomNumber]}&apikey=thewdb`
@@ -33,6 +33,7 @@ let movieAPI = `http://www.omdbapi.com/?s=${randomWord[randomNumber]}&apikey=the
                 details.classList.add('card-text')
                 details.innerHTML = `
                     Year: ${data.Search[i].Year} <br>
+                    Type: ${data.Search[i].Type} <br>
                     imdbID: ${data.Search[i].imdbID}
                 `
                 content.append(title)
