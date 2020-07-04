@@ -82,7 +82,7 @@ hr{
     margin-bottom: 40px;
 }
 
-h1{
+a h1{
     text-align: center;
     margin: 5px 35%;
     padding: 5px;
@@ -141,4 +141,10 @@ form > textarea {
     height: 50vh;
     object-fit: cover;
     object-position: top;
+}
+
+.container .container > img{
+    width: 50%;
+    margin: 20px auto;
+
 }

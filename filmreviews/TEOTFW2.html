@@ -1,15 +1,46 @@
-<DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review - The end of the f**king world 2 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Monofett&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Film n Book</title>
+    <link rel="icon" href="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-14.jpg" type="image/icon type">
+    
 </head>
-<body>
-    <!-- Nguồn: moveek -->
-    <img src="https://d.newsweek.com/en/full/1543225/end-f-ing-world-soundtrack.jpg" 
-        alt="The end of the f**king world 2">
-    <h1>The End of the F**king World 2 – Sự khác biệt... "kỳ quặc"</h1>
+
+    <body>
+        <nav id="navBar" class="navbar navbar-light navbar-expand-lg py-0 fixed-top" >
+            <a class="navbar-brand" href="#">Film n Book</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Phim.html" class="nav-link">PHIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Sách.html" class="nav-link">SÁCH</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <section id="header" class="jumbotron text-center" style="color: rgb(179, 19, 19); background: url('https://cdn5.vectorstock.com/i/1000x1000/73/99/movie-citema-seat-hall-interior-background-vector-20707399.jpg') center center / cover" >
+                <h1 class="display-4">The End of The F***ing World (Ss2)</h1>
+            </section>
+            <section id="body" class="container">
+                <h2>Sự khác biệt... "kỳ quặc"</h2>
     <p>
         <b>The End of the Fucking World</b> mùa 2 thay đổi nhiều so với phần 1.
     </p>
@@ -72,8 +103,50 @@
         <b>The End of the Fucking World</b> mùa 2 có thể không phải là mùa phim xuất sắc hơn phần 1, nhưng là câu chuyện cần thiết và mang đến cho series này những nốt lặng 
         “người” hơn và nhân văn hơn, cũng như một cái kết trọn vẹn cho series phim rất ăn khách này trên Netflix. 
     </p>
-   
-    <a href="film.html"><h2>Các bài viết khác</h2></a>
-    <a href=""></a>
-</body>
-</html>
+                <i class="text-right">Nguồn: moveek</i>
+            </section>
+        </div>
+
+        <section id="footer" class="text-center">
+            <a href="http://www.phimmoiz.com/phim/cap-doi-do-nguoi-phan-1-6482/" class="btn btn-warning w-30">Xem phim</a>
+            <a href="../Phim.html" class="btn btn-info">Quay lại</a>
+            <hr>
+            <div>
+                <h2>CONTACT US</h2>
+                <div>
+                Phone: +84-999-999-999
+                </div>
+                <div style="margin-bottom: 30px;">
+                Email: filmnbook@hihi.com
+                </div>
+            </div>
+        
+            <form action="" >
+                <h3>Góp ý</h3>
+                <input class="form-control" type="text" required placeholder="Your name">
+                <input class="form-control" type="email" placeholder="Your email (optional)">
+                <textarea class="form-control" placeholder="Input your message.." required cols="50" rows="10"></textarea>
+                <input class="btn btn-info " type="submit">
+            </form>
+        </section>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script>
+        $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#navBar");
+                    $nav.toggleClass("scrolled navbar-dark", $(this).scrollTop() > $nav.height());
+                });
+            });
+        $('.lead').hover(function(){
+            $(this).toggleClass('shadow')
+        })
+        // setInterval(function(){
+        //   $("span").toggleClass('blink')
+        // }, 500);
+        </script>
+        <script src="film.js"></script>
+    </body>
+  </html>
