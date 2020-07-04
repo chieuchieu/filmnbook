@@ -142,3 +142,19 @@ form > textarea {
     object-fit: cover;
     object-position: top;
 }
+
+/*sach page*/
+.content {
+    background-color: cadetblue;
+}
+
+.story {
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.doc-ngay-button {
+    width: 10%;
+    height: 50%;
+}
